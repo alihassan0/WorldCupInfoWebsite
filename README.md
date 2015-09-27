@@ -24,10 +24,10 @@ as the data insertion queries .
 menna to insert the data in the database tables  
 
 ### Ali Hassan  ​
-­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­*table_show.php, queries.json,script.js,css,ajax.php *
+­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­*table_show.php*, *queries.json*,*script.js*,*css*,*ajax.php* 
 
 -	handle the front-end of the website 
 
 ## Tools Used (from front to back)
 
-##HTML## , ##CSS## , ##JavaScript## , ##Jquery## , ##Ajax## , ##PHP## , ##SOAP## , ##MySql##
+**HTML** , **CSS** , **JavaScript** , **Jquery** , **Ajax** , **PHP** , **SOAP** , **MySql**
