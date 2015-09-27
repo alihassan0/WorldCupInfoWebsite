@@ -1,0 +1,71 @@
+{"queries": [
+{"queryName":"AllPlayerNames" ,"discription":"Returns an array with the id, name, country and flag reference of all players","inputs":"bSelected","inputs":[]},
+
+{"queryName":"AllDefenders" ,"discription":"Returns an array with the names of all defenders. If you pass a country name the result will be filtered on that country, so you only get the defenders listed for the specified country","inputs":["sCountryName"]},
+
+{"queryName":"AllGoalKeepers" ,"discription":"Returns an array with the names of all goalkeepers. If you pass a country name the result will be filtered on that country, so you only get the goalkeepers listed for the specified country","inputs":["sCountryName"]},
+
+{"queryName":"AllForwards" ,"discription":"Returns an array with the names of all forwards. If you pass a country name the result will be filtered on that country, so you only get the forwards listed for the specified country","inputs":["sCountryName"]},
+
+{"queryName":"AllMidFields" ,"discription":"Returns an array with the names of all midfields. If you pass a country name the result will be filtered on that country, so you only get the midfields listed for the specified country","inputs":["sCountryName"]},
+
+{"queryName":"TopGoalScorers" ,"discription":"Returns an array with the top N goal scorers and their current score. Pass 0 as TopN and you get them all.","inputs":["iTopN"]},
+
+{"queryName":"AllPlayersWithYellowOrRedCards" ,"discription":"Returns an array with players that have a red or a yellow card. Note: You can only sort on Name, Yellow or Red cards, not on a combination.","inputs":[]},
+
+{"queryName":"AllPlayersWithYellowCards" ,"discription":"Returns an array with players that have a yellow card. Note: You can only sort on Name or Yellow cards, not on a combination.","inputs":[]},
+
+{"queryName":"AllPlayersWithRedCards" ,"discription":"Returns an array with players that have a red card. Note: You can only sort on Name or Red cards, not on a combination.","inputs":[]},
+
+{"queryName":"AllCards" ,"discription":"Returns an array with all given cards during the tournament","inputs":[]},
+
+{"queryName":"Cities" ,"discription":"Returns an array with all the city names where games are played","inputs":[]},
+
+{"queryName":"StadiumNames" ,"discription":"Returns an array of stadium names where the games are played","inputs":[]},
+
+{"queryName":"StadiumURL" ,"discription":"Returns a URL that can be used to show a small map of the stadium","inputs":["sStadiumName"]},
+
+{"queryName":"StadiumInfo" ,"discription":"Returns the information we keep about a particular stadium, Pass the name of the stadium","inputs":["sStadiumName"]},
+
+{"queryName":"AllStadiumInfo" ,"discription":"Returns an array with all stadiums. The array contains the names, the city where the stadium can be found and the seat capacity","inputs":[]},
+
+{"queryName":"FullTeamInfo" ,"discription":"Returns all team info from a passed team; name, flag, playernames (by role), trainer","inputs":["sTeamName"]},
+
+{"queryName":"Teams" ,"discription":"Returns an array of all teams that compete with a link to the picture of their flag","inputs":[]},
+
+{"queryName":"GroupCount" ,"discription":"Returns the number of groups in the tournament","inputs":[]},
+
+{"queryName":"Groups" ,"discription":"Returns an array of group id's and descriptions. Group is a poule collection of a knock out level","inputs":[]},
+
+{"queryName":"GroupCompetitors" ,"discription":"List all the members of a group/poule","inputs":["sPoule"]},
+
+{"queryName":"AllGroupCompetitors" ,"discription":" List all the members of all groups/poules","inputs":[]},
+
+{"queryName":"GameInfo" ,"discription":"Returns the information about a particular game","inputs":["iGameId"]},
+
+{"queryName":"AllGames" ,"discription":"Returns an array of games information","inputs":[]},
+
+{"queryName":"CountryNames" ,"discription":"Returns an array of country names. The country is a property of a participant. You need the country ID to call PersonsPerCountry.","inputs":[]},
+
+{"queryName":"GamesPlayed" ,"discription":"Number of games played so far","inputs":[]},
+
+{"queryName":"GamesPerCity" ,"discription":"Returns an array of Games that are played in the passed city name","inputs":["sCityName"]},
+
+{"queryName":"YellowCardsTotal" ,"discription":"Returns the total number of yellow cards given during this tournament (so far)","inputs":[]},
+
+{"queryName":"RedCardsTotal" ,"discription":"Returns the total number of red cards given during this tournament (so far)","inputs":[]},
+
+{"queryName":"YellowAndRedCardsTotal" ,"discription":"Returns a combination of the total number of yellow and red cards given during this tournament (so far)","inputs":[]},
+
+{"queryName":"Coaches" ,"discription":"Returns an array with the names of all the coaches and the team information he/she is coaching","inputs":[]},
+
+{"queryName":"PlayedAtWorldCup" ,"discription":"Returns a number on how many times the given team competed at a worldcup football","inputs":["sTeamName"]},
+
+{"queryName":"TeamsCompeteList" ,"discription":"Returns an array with the team of this competition with the number of times competed and the number of times won","inputs":[]},
+
+{"queryName":"DateOfFirstGame" ,"discription":"Returns the date of the first game","inputs":[]},
+
+{"queryName":"DateOfLastGame" ,"discription":"Returns the date of the last game (usually the finals...)","inputs":[]},
+
+{"queryName":"DateLastGroupGame" ,"discription":"Returns the date of the last group game will be played. After this date the quarter finals are played.","inputs":[]}
+]}
